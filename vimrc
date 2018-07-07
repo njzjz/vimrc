@@ -61,7 +61,7 @@ nnoremap <F6> :Autoformat<CR>
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
-Plugin 'https://github.com/comscrooloose/nerdtree'
+Plugin 'https://github.com/scrooloose/nerdtree'
 nnoremap <F3> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 Plugin 'kien/rainbow_parentheses.vim'
