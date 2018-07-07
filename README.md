@@ -9,4 +9,5 @@ Jinzhe Zeng's vimrc, including several useful plugins.
 ```bash
 $ git clone --recursive https://github.com/njzjz/vimrc.git ~/.vim 
 $ vim -c :PluginInstall
+$ pip install autopep8
 ```
