@@ -61,7 +61,7 @@ nnoremap <F6> :Autoformat<CR>
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
-Plugin 'comscrooloose/nerdtree'
+Plugin 'https://github.com/comscrooloose/nerdtree'
 nnoremap <F3> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 Plugin 'kien/rainbow_parentheses.vim'
@@ -88,7 +88,7 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-Plugin 'bling/vim-airline'
+Plugin 'https://github.com/bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()

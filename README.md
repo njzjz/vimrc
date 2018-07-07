@@ -7,6 +7,6 @@ Jinzhe Zeng's vimrc, including several useful plugins.
 
 ## Usage
 ```bash
-$ git clone git@github.com:njzjz/vimrc.git ~/.vim
+$ git clone --recursive https://github.com/njzjz/vimrc.git ~/.vim 
 $ vim -c :PluginInstall
 ```
