@@ -11,6 +11,7 @@ set smartindent
 set scrolloff=4
 set showmatch
 set nu
+set incsearch
 
 let python_highlight_all=1
 set tabstop=4
