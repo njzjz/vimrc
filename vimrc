@@ -17,7 +17,6 @@ let python_highlight_all=1
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-au Filetype python set textwidth=79
 au Filetype python set expandtab
 au Filetype python set fileformat=unix
 autocmd Filetype python set foldmethod=indent
