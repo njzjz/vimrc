@@ -90,6 +90,7 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 Plugin 'https://github.com/bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'wakatime/vim-wakatime'
 
 call vundle#end()
 filetype plugin indent on
