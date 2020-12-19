@@ -22,6 +22,8 @@ au Filetype python set expandtab
 au Filetype python set fileformat=unix
 autocmd Filetype python set foldmethod=indent
 autocmd Filetype python set foldlevel=99
+au Filetype javascript set expandtab
+au Filetype javascript set fileformat=unix
 
 map <F5> :call CompileRunGcc()<CR>
 func! CompileRunGcc()
